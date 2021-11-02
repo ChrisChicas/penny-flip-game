@@ -1,0 +1,46 @@
+body {
+    text-align: center;
+    background-color: darkgoldenrod;
+}
+
+.Table {
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid black;
+    margin-bottom: auto;
+}
+
+td, th {
+    border: 1px solid black;
+}
+
+.buttoncont {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#Flip {
+    border-radius: 12px;
+    background-color: lightskyblue;
+    font-size: 15pt
+}
+
+#Flip:hover {
+    background-color: deepskyblue;
+}
+
+#Clear {
+    border-radius: 12px;
+    background-color: orange;
+    font-size: 15pt
+}
+
+#Clear:hover {
+    background-color: chocolate;
+}
+
+.Inner {
+    background-color: white;
+}
