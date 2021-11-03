@@ -7,13 +7,13 @@
     <body>
         <div class="Inner">
             <h1>Penny Flip Game</h1>
-            <img src = "assets/penny-heads.jpg" alt="Penny Side">
+            <img class="penimg" src = "assets/penny-heads.jpg" alt="Penny Side">
             <div class="buttoncont">
                 <button id="Flip">Flip the Penny!</button>
                 <button id="Clear">Clear the Scoreboard!</button>
             </div>
             <div>
-                <h3>Penny flip result...</h3>
+                <h3 class="Result">Let's Get Rolling!</h3>
             </div>
             <hr>
             <div>
@@ -29,10 +29,10 @@
                     </thead>
                     <tbody>
                         <tr>
-                            <td>0</td>
-                            <td>0%</td>
-                            <td>0</td>
-                            <td>0%</td>
+                            <td id="headstot">0</td>
+                            <td id="headsper">0%</td>
+                            <td id="tailstot">0</td>
+                            <td id="tailsper">0%</td>
                         </tr>
                     </tbody>
                 </table>
